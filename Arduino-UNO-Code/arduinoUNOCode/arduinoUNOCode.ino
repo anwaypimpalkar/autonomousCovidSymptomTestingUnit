@@ -30,7 +30,7 @@ uint32_t lastUserAction = 0;
 
 // Global variables
 int allowReadings;
-int consoleMode = 0;
+int consoleMode = 1   ;
 int showMainScreen = 1;
 int showComputingScreen = 1;
 int showReadyScreen = 1;
@@ -106,7 +106,7 @@ void loop() {
   }
 
   //Get readings from the sensors
-  float tempReading = mlx.readObjectTempF() + 7.50;
+  float tempReading = mlx.readObjectTempF() + 10.50;
   int BPM = pox.getHeartRate();
   int SpO2 = pox.getSpO2();
   pox.update();
