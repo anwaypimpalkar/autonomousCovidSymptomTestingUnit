@@ -6,7 +6,7 @@ March, 2021 | Group project created for a Microcontrollers and Applications cour
 
   * [Introduction](#introduction)
   * [System Overview](#system-overview)
-  * [Focus: Data Management and Quasar VueJS App](#focus:-data-management-and-quasar-vuejs-app)
+  * [Data Management and Quasar VueJS App](#data-management-and-quasar-vuejs-app)
   * [Hardware Demonstration](#hardware-demonstration)
   * [Group Details](#group-details)
 
@@ -31,7 +31,7 @@ The system's main function is to provide cheap accurate multifunctionality which
 
 
 
-## Focus: Data Management and Quasar VueJS App
+## Data Management and Quasar VueJS App
 
 This subsystem was my primary responsibility and contribution to the project. 
 
