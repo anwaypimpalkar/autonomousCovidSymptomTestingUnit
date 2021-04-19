@@ -1,4 +1,4 @@
-# CovPrev - Autonomous COVID-19 Symptom Testing And Sanitization Unit
+# CovPrev - Autonomous COVID-19 Symptom Testing And Sanitization Unit With Cross-Platform App
 
 March, 2021 | Group project created for a Microcontrollers and Applications course in SY BTech.
 
