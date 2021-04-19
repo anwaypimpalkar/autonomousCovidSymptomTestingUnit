@@ -22,7 +22,8 @@ The primary symptoms a COVID-19 patient shows is a high body temperature and a l
 
 ## System Overview
 
-The system's main function is to provide cheap accurate multifunctionality which can be deployed at various locations easily. When a user approaches the device, an IR triggered sanitizer spray ensures hygiene in the process. Then, the user is prompted to place their index finger on a sensor assembly equipped with a [MAX30100 Pulse Oximeter and Heart-Rate Sensor](https://datasheets.maximintegrated.com/en/ds/MAX30100.pdf) and a [MLX90614 Infra Red Thermometer](https://www.sparkfun.com/datasheets/Sensors/Temperature/MLX90614_rev001.pdf), which are interfaced to an [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3) development board. The user's temperature and oxygen level are taken, and if the values are in a given range, then the user is allowed to proceed into the building or room. If the readings aren't in the range, the user is notified so using a buzzer and LEDs. The data taken from the sensors interfaced to the Arduino Uno are sent to a [ESP-8266 NodeMCU](https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf) module via serial communication. This module then stores the data either online on the Firebase Realtime Database or offline on a microSD card based on the internet connection availability.![](misc\Overall Block Diagram.png)
+The system's main function is to provide cheap accurate multifunctionality which can be deployed at various locations easily. When a user approaches the device, an IR triggered sanitizer spray ensures hygiene in the process. Then, the user is prompted to place their index finger on a sensor assembly equipped with a [MAX30100 Pulse Oximeter and Heart-Rate Sensor](https://datasheets.maximintegrated.com/en/ds/MAX30100.pdf) and a [MLX90614 Infra Red Thermometer](https://www.sparkfun.com/datasheets/Sensors/Temperature/MLX90614_rev001.pdf), which are interfaced to an [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3) development board. The user's temperature and oxygen level are taken, and if the values are in a given range, then the user is allowed to proceed into the building or room. If the readings aren't in the range, the user is notified so using a buzzer and LEDs. The data taken from the sensors interfaced to the Arduino Uno are sent to a [ESP-8266 NodeMCU](https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf) module via serial communication. This module then stores the data either online on the Firebase Realtime Database or offline on a microSD card based on the internet connection availability.
+![](https://github.com/anwaypimpalkar/autonomousCovidSymptomTestingUnit/raw/main/misc/Overall%20Block%20Diagram.png)
 
 
 
@@ -32,7 +33,7 @@ This subsystem was my primary responsibility and contribution to the project.
 
 To fulfill my purposes, I chose to use the cheap and readily available ESP-8266 NodeMCU development board with a built-in Wi-Fi module for internet connectivity. The data was stored and sent to the cloud for easy user access. 
 
-![](misc\Data Subsystem Block Diagram.png)
+![](https://github.com/anwaypimpalkar/autonomousCovidSymptomTestingUnit/raw/main/misc/Data%20Subsystem%20Block%20Diagram.png)
 
 For storing the incoming sensor data from the Arduino Uno, I created two channels - online and offline storage:
 
@@ -48,17 +49,17 @@ To make the data easily accessible, I built an app on the [VueJS Quasar Framewor
 - **Update Acceptable Sensor Reading Parameters:** Through the app, users are able to change the acceptable values of the on-board sensors which decide whether a given user is within the acceptable SpO₂ and temperature ranges. 
 - **View Basic Overview of Project:** A page including the project details, links and references is also added to the app.
 
-![](misc\App Screenshots 1.png)
+![](https://github.com/anwaypimpalkar/autonomousCovidSymptomTestingUnit/raw/main/misc/App%20Screenshots%201.png)
 
-![](misc\App Screenshots 2.png)
+![](https://github.com/anwaypimpalkar/autonomousCovidSymptomTestingUnit/raw/main/misc/App%20Screenshots%202.png)
 
-![](misc\Firebase Screenshot.png)
+![](https://github.com/anwaypimpalkar/autonomousCovidSymptomTestingUnit/raw/main/misc/Firebase%20Screenshot.png)
 
 ## Hardware Demonstration
 
-The hardware required was implemented in a makeshift manner as a proof of concept for the evaluation of the project.  An unnarrated [video demonstration](https://youtu.be/aAD6R5BNwCo) has been documented. The [presentation slides](misc\CovPrev Presentation Slides.pdf) of this project are also made available.
+The hardware required was implemented in a makeshift manner as a proof of concept for the evaluation of the project.  An unnarrated [video demonstration](https://youtu.be/aAD6R5BNwCo) has been documented. The [presentation slides](https://github.com/anwaypimpalkar/autonomousCovidSymptomTestingUnit/raw/main/misc/CovPrev%20Presentation%20Slides.pdf) of this project are also made available.
 
-![Hardware Assembly](misc\Hardware Assembly.png)
+![Hardware Assembly](https://github.com/anwaypimpalkar/autonomousCovidSymptomTestingUnit/raw/main/misc/Hardware%20Assembly.png)
 
 ## Group Details
 
