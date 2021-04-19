@@ -6,7 +6,7 @@ March, 2021 | Group project created for a Microcontrollers and Applications cour
 
   * [Introduction](#introduction)
   * [System Overview](#system-overview)
-  * [Focus: Data Management and Quasar VueJS App](#focus--data-management-and-quasar-vuejs-app)
+  * [Focus: Data Management and Quasar VueJS App](#focus:-data-management-and-quasar-vuejs-app)
   * [Hardware Demonstration](#hardware-demonstration)
   * [Group Details](#group-details)
 
