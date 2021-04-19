@@ -1,0 +1,1 @@
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ./my-release-key.keystore -signedjar ./CovPrev-v1.apk "C:\Users\siran\OneDrive\Desktop\Me\Arduino Projects\covapp\dist\cordova\android\apk\release\app-release-unsigned.apk" alias_name 
