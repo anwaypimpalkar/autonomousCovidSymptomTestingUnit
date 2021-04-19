@@ -2,9 +2,13 @@
 
 March, 2021 | Group project created for a Microcontrollers and Applications course in SY BTech.
 
+[CovPrev - Autonomous COVID-19 Symptom Testing And Sanitization Unit](#covprev---autonomous-covid-19-symptom-testing-and-sanitization-unit)
 
-
-[TOC]
+  * [Introduction](#introduction)
+  * [System Overview](#system-overview)
+  * [Focus: Data Management and Quasar VueJS App](#focus--data-management-and-quasar-vuejs-app)
+  * [Hardware Demonstration](#hardware-demonstration)
+  * [Group Details](#group-details)
 
 ## Introduction
 
